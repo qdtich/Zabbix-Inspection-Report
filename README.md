@@ -2,11 +2,11 @@ for 7.0
 
 Installation steps
 
-1. Add two keys to the agent configuration file of Zabbix server for obtain configuration and log information. Create a new conf file directly in the agent configuration file or in the agent configuration directory, and add 2 monitoring keys.<br>
+1. Add two keys to the agent configuration file of Zabbix server for obtain configuration and log information. Create a new conf file directly in the agent configuration file or in the agent configuration directory, and add two monitoring keys.<br>
 `UserParameter=zabbix.server.conf,grep -Ev "^$|^#" /etc/zabbix/zabbix_server.conf`<br>
 `UserParameter=zabbix.server.log,grep -Ei "exit|stop|fail" /var/log/zabbix/zabbix_server.log | tail -n 20`
 
-2. Add two keys to the agent configuration file of Zabbix proxy for obtain configuration and log information. Create a new conf file directly in the agent configuration file or in the agent configuration directory, and add 2 monitoring keys.<br>
+2. Add two keys to the agent configuration file of Zabbix proxy for obtain configuration and log information. Create a new conf file directly in the agent configuration file or in the agent configuration directory, and add two monitoring keys.<br>
 `UserParameter=zabbix.proxy.conf,grep -Ev "^$|^#" /etc/zabbix/zabbix_proxy.conf`<br>
 `UserParameter=zabbix.proxy.log,grep -Ei "exit|stop|fail" /var/log/zabbix/zabbix_proxy.log | tail -n 20`
 
