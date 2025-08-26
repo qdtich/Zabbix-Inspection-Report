@@ -33,4 +33,3 @@ Installation steps
 <img width="1709" height="906" alt="image" src="https://github.com/user-attachments/assets/d49e5558-4f37-4959-993d-23f197956f7b" />
 <img width="1715" height="880" alt="image" src="https://github.com/user-attachments/assets/1cd899f0-4fdf-4ef2-9005-972004077d49" />
 <img width="1708" height="901" alt="image" src="https://github.com/user-attachments/assets/076642f1-a0b7-4ca2-b993-427da0f1bd9a" />
-<img width="581" height="859" alt="image" src="https://github.com/user-attachments/assets/e1d7aecd-8a5d-4f3b-86a0-2e8242978beb" />
