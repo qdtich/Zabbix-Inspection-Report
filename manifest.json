@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2.0,
+    "id": "inspection_report",
+    "type": "module",
+    "name": "Inspection report",
+    "version": "1.0",
+    "namespace": "InspectionReport",
+    "author": "thinkc@outlook.com",
+    "description": "Inspection report for Zabbix components.",
+    "actions": {
+        "inspection.report": {
+            "class": "InspectionReport",
+            "view": "module.inspection.report"
+        },
+        "inspection.detail": {
+            "class": "InspectionDetail",
+            "view": "layout.inspection.detail"
+        }
+    }
+}
