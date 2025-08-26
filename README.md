@@ -1,2 +1,2 @@
 # Zabbix-Inspection-Report
-Zabbix UI module
+Zabbix UI modules
